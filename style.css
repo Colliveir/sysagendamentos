@@ -1,0 +1,113 @@
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    background-image: url(images/backgroundMA.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+}
+
+.all {
+    min-height: 900px;
+    padding: 20px;
+}
+
+textarea {
+    min-height: 182px;
+}
+
+header {
+    text-align: right;
+    padding: 10px;
+    background-image: linear-gradient(to right, #94befd, #6596f1, #3e6de0, #2342ca, #1e00ae);
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btnheader{
+    margin: 10px 5px;
+}
+
+.logo{
+    float: left;
+    width: 80px;
+    position: relative;
+    left: 5%;
+}
+
+.painel {
+    padding: 5%;
+    margin: 5% 2%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.6);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.inputpainel {
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 90%;
+    margin: 5px;
+    padding: 10px;
+    color: black;
+    background: white;
+}
+
+select{
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 90%;
+    margin: 5px;
+    padding: 10px;
+    color: black;
+    background: white;
+}
+
+.submit {
+
+    width: 50%;
+    margin: 5px 0;
+    transition: box-shadow .1s;
+}
+
+.submit:hover {
+    box-shadow: 0 0 20Spx rgba(33, 33, 33, 0.502);
+}
+
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(to right, #94befd, #6596f1, #3e6de0, #2342ca, #1e00ae);
+    -webkit-box-shadow: 0px -6px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -6px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -6px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+footer img {
+    width: 4%;
+}
+
+
+@media screen and (max-width: 768px) {}
